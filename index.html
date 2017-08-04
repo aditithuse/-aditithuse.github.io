@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <title>Aditi Thuse</title>
-  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -62,7 +61,7 @@ div.tab button.active {
 </head>
 <div id="Total" class="container">
 <body><div class="jumbotron text-center">
-  <img src="pic.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236" style=>
+  <img src="pic.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" style=>
   <h1><strong>Aditi Thuse</strong></h1>
   <p>Computer Science Graduate Student</p>
 </div>
@@ -71,26 +70,27 @@ div.tab button.active {
   <button class="tablinks" onclick="openCity(event, 'About me')" id="defaultOpen">About me</button>
   <button class="tablinks" onclick="openCity(event, 'Education')">Education</button>
   <button class="tablinks" onclick="openCity(event, 'Experience')">Experience</button>
+  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
 </div>
 
 <div id="About me" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
-  <h1>About me</h1>
-  <p>I am a masters student at Washington State University, Voiland School of Computer Science and Electrical Engineering. My focus area is <strong>Data Science</strong>.
-  I currently work at Washington State University as a Oracle peoplesoft Technical Assistant. </p>
+  <h2>About me</h2><hr>
+  <h4>I am a masters student at Washington State University, Voiland School of Computer Science and Electrical Engineering. My focus area is <strong>Data Science</strong>.
+  I currently work at Washington State University as a Oracle peoplesoft Technical Assistant. </h4>
 </div>
 
 <div id="Education" class="tabcontent">
   <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
   <h2>Education</h2><hr>
   <h3>Masters in Computer Science</h3>
-  <p>Washington State University
-  <p>GPA: 3.68
-  <p>Aug 2016 - Expected May 2018
+  <p>Washington State University</p>
+  <p>GPA: 3.68</p>
+  <p>Aug 2016 - Expected May 2018</p>
   <br><br>
   <h3>Bachelors in Computer Science</h3>
-  <p>University of Pune
-  <p>Aug 2010 - May 2014
+  <p>University of Pune</p>
+  <p>Aug 2010 - May 2014</p>
 </div>
 
 <div id="Experience" class="tabcontent">
@@ -98,14 +98,54 @@ div.tab button.active {
   <h2>Experience</h2><hr>
   <h3>Washington State University </h3>
   <h4>Oracle PeopleSoft Technical Assistant</h4>
-  <p>May 17 – Present | Pullman, WA
-  <p>Built web services using people code in SOAP and REST.
-  <p>Designed web pages for the Washington State University HRMS using PeopleSoft.
+  <p>May 17 – Present | Pullman, WA</p>
+  <ul class="list-group">
+    <li class="list-group-item">Built web services using people code in SOAP and REST.</li>
+    <li class="list-group-item">Designed web pages for the Washington State University HRMS using PeopleSoft.</li>
+  </ul>
 
   <br><br>
-  <h3>Bachelors in Computer Science</h3>
-  <p>University of Pune
-  <p>Aug 2010 - May 2014
+  <h3>Zensar Technologies Limited </h3>
+  <h4>Software Developer/ Business Analyst</h4>
+  <p>Dec 14 – Jul 16 | Pune, India</p>
+  <ul class="list-group">
+    <li class="list-group-item">Managed on-site project for client Silica. Interacted with client in person as a member of in correspondence team in South Africa.</li>
+    <li class="list-group-item">Generated periodic account statements for Investec and Ashburton investment banks.</li>
+    <li class="list-group-item">Developed and enhanced stored procedures in project.</li>
+    <li class="list-group-item">Used agile/scrum methodology for the project.</li>
+    <li class="list-group-item">Worked in C#, ASP.NET, JavaScript, MSBI, Sybase, Microsoft SQL server.</li>
+  </ul>
+</div>
+
+<div id="Projects" class="tabcontent">
+  <span onclick="this.parentElement.style.display='none'" class="topright">x</span>
+  <h2>Projects</h2><hr>
+
+  <ul class="list-group">
+    <li class="list-group-item">
+      <h4><strong>Analysis of Amazon co-purchasing network</strong></h4>
+      <p>Jan 17 – May 17</p>
+      <h5>Analyzed evolution of the communities using temporal graphs. Analyzed consumption pattern and purchasing trends using cliques and motifs. </h5>
+    </li>
+    <li class="list-group-item">
+      <h4>Code Analysis using Graph Database and review comments</h4>
+      <p>Jan 17 – May 17</p>
+      <h5>Gathered information about code quality for the project and used this to configure the comments in code review and their relevant warnings. Used Neo4j graph database to store data from comments. Used TF-IDF for storing keywords and warnings and extracting the warnings from user comments in database.</h5>
+    </li>
+    <li class="list-group-item">
+      <h4>Machine learning, data mining techniques for Bank Marketing</h4>
+      <p>Aug 16 – Dec 16</p>
+      <h5>Customers are targeted who are most likely to enroll in to term deposit using machine learning and data mining techniques.  </h5>
+    </li>
+    <li class="list-group-item">
+      <h4>Hotel Management system</h4>
+      <p>Jan 13 – Apr 13</p>
+      <h5>Developed a system for efficient management of the hotel operations such as check-in, check-out, online booking. VB and Oracle is used.</h4>
+    </li>
+    <li class="list-group-item">
+      <h5>Seminar - Rabin Public key Cryptosystem for mobile Authentication</h5>
+    </li>
+  </ul>
 </div>
 <br><br>
 
